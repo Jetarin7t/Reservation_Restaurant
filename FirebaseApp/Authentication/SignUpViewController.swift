@@ -1,9 +1,9 @@
 //
 //  SignUpViewController.swift
-//  CloudFunctions
+//  RestaurantReservationApp
 //
-//  Created by Robert Canton on 2017-09-13.
-//  Copyright © 2017 Robert Canton. All rights reserved.
+//  Created by Jetarin Taloet ISBC on 6/19/18.
+//  Copyright © 2018 Robert Canton. All rights reserved.
 //
 
 import Foundation
@@ -181,9 +181,6 @@ class SignUpViewController:UIViewController, UITextFieldDelegate {
         Auth.auth().createUser(withEmail: email, password: pass) { user, error in
             if error == nil && user != nil {
                 print("User created!")
-                
-            
-                // 1. Upload the profile image to Firebase Storage
                 
                 self.uploadProfileImage(image) { url in
                     

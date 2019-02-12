@@ -1,8 +1,8 @@
 //
 //  ImageService.swift
-//  FirebaseApp
+//  RestaurantReservationApp
 //
-//  Created by Robert Canton on 2018-02-12.
+//  Created by Jetarin Taloet ISBC on 6/19/18.
 //  Copyright © 2018 Robert Canton. All rights reserved.
 //
 

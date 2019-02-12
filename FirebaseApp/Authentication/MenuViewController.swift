@@ -1,9 +1,9 @@
 //
 //  ViewController.swift
-//  FirebaseDemo
+//  RestaurantReservationApp
 //
-//  Created by Robert Canton on 2017-09-13.
-//  Copyright © 2017 Robert Canton. All rights reserved.
+//  Created by Jetarin Taloet ISBC on 6/19/18.
+//  Copyright © 2018 Robert Canton. All rights reserved.
 //
 
 import UIKit
